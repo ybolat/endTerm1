@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greet;
 
-option go_package="greet\\greetpb;greetpb";
+  option go_package="greet\\greetpb;greetpb";
 
 message Greeting{
   int64 number = 1;

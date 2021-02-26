@@ -7,4 +7,4 @@ WORKDIR /usr/src/app/
 EXPOSE 50051
 
 COPY . /usr/src/app/
-CMD go run ./cmd/web
+CMD go run ./greet/greet_client/client.go
